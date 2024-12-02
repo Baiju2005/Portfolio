@@ -2,7 +2,7 @@ import React from 'react';
 import PythonImg from '../assets/icons/pngwing.png';
 import NumpyImg from '../assets/icons/NumPy.png';
 import Pandas from "../assets/icons/Pandas.png";
-import Matplotlib from "../assets/icons/Matplotlib.png";
+import Matplotlib from "../assets/icons/matplotlib.png";
 import Sklearn from "../assets/icons/scikit-learn.png";
 import MySql from "../assets/icons/mysql-24.png";
 import Mern from "../assets/icons/MERN-logo.png";
