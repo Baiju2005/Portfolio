@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+.cta-button {
+    cursor: pointer;
+    display: inline-block;
+    background: #000;
+    color: #EDE8F5;
+    border: 1px solid;
+    padding: 6px 24px;
+    font-size: clamp(14px, 2vw, 18px); 
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out;
+    z-index: 1; 
+    font-weight: bold;
+}
+
+.cta-button::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00D664;
+    top: 0;
+    left: -100%;
+    transition: left 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.cta-button:hover::before {
+    left: 0;
+}
+.cta-button:hover {
+    color: #000000;
+}
+
+
+.cta-btn {
+    cursor: pointer;
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 6px 24px;
+    font-size: clamp(14px, 2vw, 18px);
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.cta-btn::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00D664;
+    top: 0;
+    left: -100%;
+    transition: left 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.cta-btn:hover::before {
+    left: 0;
+}
+
+
